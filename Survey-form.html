@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8"/>
+            <meta name="viewport" content="width=device-width, 
+                initial-scale=1.0" />
+            <title>Hecules Forex Acedemy Survey Form</title>
+            <link rel="stylesheet" href="styles.css" />
+        </head>
+        <body>
+            <h1 id="title">Hecules Forex Acedemy Survey Form</h1>
+            <p id="description">Thank you for taking time to help us 
+                improve our services</p>
+            <form id="survey-form">
+                <fieldset>
+                    <label for="name" id="name-label">Name: <input id="name" 
+                        type="text" name="name" value="name" 
+                        placeholder="Enter your name" required>
+                    </label>
+                    <label for="email" id="email-label">Email: <input id="email" 
+                        type="email" placeholder="Enter your email" name="email" 
+                        value="email" required>
+                    </label>
+                    <label for="number" id="number-label">Age: <input id="number" 
+                        type="number" max="90" min="18" placeholder="Age" value="numbers" 
+                        required>
+                    </label>
+                    <label for="dropdown">Which option best describe your choice 
+                        of subscription
+                        <select id="dropdown" name="dropdown">
+                            <option value=" ">"seclect one"</option>
+                            <option value="Three months plan">Three months plan</option>
+                            <option value="Quaterly plan">Quaterly plan</option>
+                            <option value="Anual plan">Anaul plan</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <h2>Would You Recommend Hercules Forex Acedemy to a friend?</h2>
+                    <label for="Definitely">Definitely<input type="radio" class="inline" 
+                        name="Definitely" value="Definitely"><input type="radio" 
+                        class="inline" name="Definitely" value="Definitely">
+                    </label>
+                    <label for="Maybe">Maybe <input type="radio" class="inline" 
+                        name="Maybe" 
+                        value="Maybe"><input type="radio" class="inline" name="Maybe" 
+                        value="Maybe">
+                    </label>
+                    <label for="Not sure">Not sure <input type="radio" class="inline" 
+                        name="Not sure" 
+                        value="Not sure"><input type="radio" class="inline" name="Not sure" 
+                        value="Not sure">
+                    </label>
+                    <label for="dropdown">What is your favouright CFDs traded?
+                        <select name="dropdown" id="dropdown">
+                            <option value="">(select one)</option>
+                            <option value="Currency pairs">Currency pairs</option>
+                            <option value="commodities">commodities</option>
+                            <option value="stock index">stock index</option>
+                            <option value="sythetic indices">sythetic indices</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <h3>Which of our signal services would you like to see improved</h3>
+                    <label for="currency signals">Currency Signals for<input type="checkbox" 
+                        name="currency signals" value="currency signals" class="inline">
+                    </label>
+                    <label for="commodity signals">Commodity Signals <input type="checkbox" 
+                        name="commodity signals" value="commodity signals" class="inline">
+                    </label>
+                    <label for="stock signal">Stock Index signals <input type="checkbox" 
+                        name="stock signal" value="stock signal" class="inline">
+                    </label>
+                    <label for="synthetic signals">Synthetic indices <input type="checkbox" 
+                        name="synthetic signals" value="synthetic signals" class="inline">
+                    </label>
+                    <label>Any comments or suggestion?
+                        <textarea id="comments" placeholder="Enter your comments here" cols="30" 
+                            rows="5">
+                        </textarea>
+                    </label>
+                </fieldset>
+                <input type="submit" id="submit" value="submit">
+            </form>
+        </body>
+    </html>
